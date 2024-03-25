@@ -38,7 +38,7 @@ Currently, I'm learning about:
 - MYSQL
 - HTML
 - CSS
-- Jvascript
+- Javascript
 - Figma
 - Canva
 - Content Writting
