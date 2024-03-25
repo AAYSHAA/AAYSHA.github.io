@@ -54,6 +54,14 @@
         button:hover {
             background-color: #555;
         }
+
+        /* Style for reports and activities */
+        .report,
+        .activity {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
@@ -79,7 +87,20 @@
             <p>Hey there! I'm Aaysha Fazal Mohamed, a software engineering enthusiast currently seeking opportunities as a Software Engineering Intern. I'm passionate about building innovative solutions and eager to learn and grow in a professional environment. Currently pursuing Software Engineering at the Informatics Institute of Technology (IIT), Sri Lanka, affiliated with the University of Westminster, UK.</p>
         </div>
     </section>
-    <!-- Other sections omitted for brevity -->
+    <section id="reports-competitions-awards">
+        <div class="container">
+            <h2>🏆 Reports, Competitions, and Awards</h2>
+            <div class="report">
+                <img src="report_image1.jpg" alt="Report Image 1">
+                <p>Description of the report or competition</p>
+            </div>
+            <div class="report">
+                <img src="report_image2.jpg" alt="Report Image 2">
+                <p>Description of the report or competition</p>
+            </div>
+            <!-- Add more reports or competitions as needed -->
+        </div>
+    </section>
     <section id="extracurricular">
         <div class="container">
             <h2>🎉 Extracurricular Activities</h2>
@@ -94,9 +115,20 @@
             <!-- Add more extracurricular activities as needed -->
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Aaysha's Portfolio</p>
+        </div>
+    </footer>
     <script>
-        // JavaScript code goes here
-        // You can add your JavaScript functionalities
+        // JavaScript code
+        // Example: Adding functionality to a button
+        document.addEventListener("DOMContentLoaded", function() {
+            const button = document.querySelector("#myButton");
+            button.addEventListener("click", function() {
+                alert("Button clicked!");
+            });
+        });
     </script>
 </body>
 </html>
